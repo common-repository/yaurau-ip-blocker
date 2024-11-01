@@ -1,0 +1,43 @@
+table.yibTable {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.yibTable td, table.yibTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.yibTable tbody td {
+    font-size: 14px;
+}
+table.yibTable thead {
+    background: #0073aa;
+    border-bottom: 2px solid #444444;
+}
+table.yibTable thead th {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #D0E4F5;
+}
+table.yibTable thead th:first-child {
+    border-left: none;
+}
+
+table.yibTable tfoot td {
+    font-size: 14px;
+}
+table.yibTable tfoot .links {
+    text-align: right;
+}
+table.yibTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
